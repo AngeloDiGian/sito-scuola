@@ -135,6 +135,87 @@ export const pctos: ProjectProps[] = [
       organizzazione: "Università Sapienza",
     },
   },
+  {
+    titolo: "Corso CISCO",
+    descrizione: "Partecipazione al corso CISCO per la Cybersecurity con attestato",
+    AS: "2022/2023",
+    altreInfo: {
+      luogo: "Avezzano",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "MAKER FAIRE",
+    descrizione: "Partecipazione alla fiera MAKER FAIRE della tecnologia",
+    AS: "2022/2023",
+    altreInfo: {
+      luogo: "Roma",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Olimpiadi Informatica a Squadre - OIS",
+    descrizione: "Partecipazione alle OIS",
+    AS: "2022/2023",
+    altreInfo: {
+      luogo: "Avezzano",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Progetto ELIS",
+    descrizione: "Orientamento presso la scuola ELIS",
+    AS: "2022/2023",
+    altreInfo: {
+      luogo: "Roma",
+      organizzazione: "ELIS",
+    },
+  },
+  {
+    titolo: "Visita Musei Vaticani",
+    descrizione: "Visita dei Musei Vaticani a Roma",
+    AS: "2022/2023",
+    altreInfo: {
+      luogo: "Roma",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Corso sulla Sicurezza",
+    descrizione: "Corso sulla Sicurezza A.S. 21/22",
+    AS: "2021/2022",
+    altreInfo: {
+      luogo: "Avezzano",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Olimpiadi Informatica Individuali - OII",
+    descrizione: "Partecipazione alle OII regionale",
+    AS: "2021/2022",
+    altreInfo: {
+      luogo: "L'Aquila",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Programma il futuro",
+    descrizione: "Svolgimento del programma il futuro, sviluppo base di semplici algoritmi in Scratch",
+    AS: "2021/2022",
+    altreInfo: {
+      luogo: "Avezzano",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
+  {
+    titolo: "Python Start",
+    descrizione: "Svolgimento del corso scolastico Python Start: introduzione a Python e la libreria Tkinter",
+    AS: "2021/2022",
+    altreInfo: {
+      luogo: "Avezzano",
+      organizzazione: "I.I.S. Ettore Majorana",
+    },
+  },
 ];
 
 export const edCivica = [
