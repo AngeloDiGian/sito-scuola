@@ -26,7 +26,7 @@ const fadeInAnimationVariants = {
 
 export default function EdCivica() {
   const { ref } = useSectionInView("Ed. Civica");
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   useEffect(() => {
     if (selectedId !== null) {
@@ -57,7 +57,7 @@ export default function EdCivica() {
               once: false,
             }}
             custom={index}
-            onClick={() => setSelectedId(`${index}`)}
+            onClick={() => setSelectedId(index)}
           >
             <EdCivicaCard {...item} />
           </motion.div>
@@ -67,7 +67,7 @@ export default function EdCivica() {
       <AnimatePresence>
         {selectedId !== null && (
           <motion.div
-            layoutId={selectedId}
+            layoutId={`${selectedId}`}
             className="fixed z-[999] top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-black bg-opacity-50 rounded-none"
             onClick={() => setSelectedId(null)}
           >
