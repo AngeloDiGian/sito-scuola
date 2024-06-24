@@ -8,7 +8,7 @@ export default function Footer() {
       <p className="mb-10">
         Puoi trovare il codice del progetto su GitHub cliccando{"  "}
         <a
-          href="https://github.com"
+          href="https://github.com/AngeloDiGian/sito-scuola"
           target="_blank"
           className="flex justify-center items-center pl-1 underline"
         >
