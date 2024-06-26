@@ -44,7 +44,7 @@ export default function EdCivica() {
     <section id="ed-civica" ref={ref} className="mb-28 scroll-mt-28">
       <SectionHeading>Educazione Civica</SectionHeading>
 
-      <div className="grid gap-4 max-w-[80rem] sm:grid-cols-1 md:grid-cols-2">
+      <div className="grid gap-4 max-w-[80rem] sm:grid-cols-1 md:grid-cols-3">
         {edCivica.map((item, index) => (
           <motion.div
             layoutId={`${index}`}
