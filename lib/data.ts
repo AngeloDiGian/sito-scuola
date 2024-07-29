@@ -45,7 +45,7 @@ export const pctos: ProjectProps[] = [
     },
   },
   {
-    titolo: 'Visita azienda "LFOUNDRY"',
+    titolo: 'Visita azienda "CIOLONE"',
     descrizione:
       "Visita formativa presso l'azienda \"LFOUNDRY\" ad Avezzano, dove abbiamo esplorato l'intero plesso industriale, concentrandoci sulla parte più informatica di essa.",
     AS: "2023/2024",
