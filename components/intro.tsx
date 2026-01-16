@@ -63,9 +63,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         Ciao, sono <span className="font-bold">Angelo Di Gianfilippo.</span>{" "}
-        Sono uno studente presso l'{" "}
-        <span className="font-bold">I.I.S. Ettore Majorana</span> indirizzo
-        informatica.
+        Sono uno studente presso la{" "}
+        <span className="font-bold">Sapienza</span> ingegneria informatica.
       </motion.h1>
 
       <motion.div
