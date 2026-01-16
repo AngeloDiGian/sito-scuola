@@ -10,7 +10,6 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 
 import pfp from "@/assets/pfp.jpg";
-import cv from "@/assets/CV_AngeloDiGianfilippo.pdf";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -78,7 +77,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href={cv}
+          href="../assets/CV_AngeloDiGianfilippo.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download
